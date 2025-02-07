@@ -303,3 +303,7 @@ header {
     padding: 0 1rem;
   }
 }
+
+footer p {
+    text-align: right;
+}
