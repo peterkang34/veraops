@@ -5,70 +5,163 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VeraOps - Unlock the Full Power of Your HubSpot</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <h1 class="logo">VeraOps</h1>
-            <a href="mailto:hi@veraops.com" class="contact-button">Contact Us</a>
-        </div>
-    </header>
-    
-    <section class="hero">
-        <div class="container">
-            <h2>Unlock the Full Power of Your HubSpot</h2>
-            <p>Turn your HubSpot chaos into a revenue-driving machine. Most companies use only a fraction of its capabilities, leading to cluttered data, inefficient workflows, and missed opportunities.</p>
-            <div class="features">
-                <div class="feature"> <strong>Maximize Hidden Potential</strong> Unlock underutilized features and make HubSpot work smarter for your business.</div>
-                <div class="feature"> <strong>Fix & Clean Your Data</strong> Easily automate and build impactful workflows with a well-structured system.</div>
-                <div class="feature"> <strong>Streamline & Automate Workflows</strong> Connect sales, marketing, and customer operations for seamless execution.</div>
-                <div class="feature"> <strong>Gain Clear, Actionable Insights</strong> Get the reporting you need to make confident, data-driven decisions.</div>
+    <div class="min-h-screen bg-custom-bg font-sans">
+        <!-- Header -->
+        <header class="fixed top-0 left-0 right-0 bg-custom-bg z-50 border-b border-black">
+            <div class="container flex items-center justify-between h-24">
+                <a href="/" class="text-3xl md:text-4xl font-bold tracking-normal">VeraOps</a>
+                <button class="btn btn-outline rounded-none text-sm tracking-wide border-black" onclick="window.location.href='mailto:hi@veraops.com'">
+                    Contact Us
+                </button>
             </div>
-        </div>
-    </section>
-    
-    <section class="partner-section">
-        <div class="container">
-            <h3>We are NOT a HubSpot Partner. We're <em>Your</em> Partner.</h3>
-            <p>Unlike agencies focused on selling more licenses or onboarding new users, we refine and optimize your existing HubSpot setup to deliver measurable business impact. No conflicting incentives, no credits for selling you extra seats.</p>
-        </div>
-    </section>
-    
-    <section class="work-with-us">
-        <div class="container">
-            <h3>Three Ways to Work with Us</h3>
-            <div class="services">
-                <div class="service">
-                    <h4>CRM Rescue</h4>
-                    <p><em>The fast track to making HubSpot work for you.</em> A deep-dive diagnostic & technical overhaul to fix, streamline, and optimize your HubSpot setup.</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="pt-32">
+            <!-- Hero Section -->
+            <section class="container py-20">
+                <div class="max-w-3xl space-y-6">
+                    <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold tracking-normal leading-[1.1]">
+                        Unlock the Full Power of Your HubSpot
+                    </h1>
+                    <p class="text-lg text-muted-foreground max-w-2xl">
+                        Turn your HubSpot chaos into a revenue-driving machine. Most companies use only a fraction of its
+                        capabilities, leading to cluttered data, inefficient workflows, and missed opportunities.
+                    </p>
                 </div>
-                <div class="service">
-                    <h4>Revenue Systems Program</h4>
-                    <p><em>Turn HubSpot into your most powerful revenue engine.</em> Restructure your HubSpot setup into a fully integrated, revenue-generating system with modular automation.</p>
+            </section>
+
+            <!-- Features Grid -->
+            <section class="container py-20">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="pt-4 border-t border-black">
+                        <h3 class="font-bold mb-3 tracking-normal">Maximize Hidden Potential</h3>
+                        <p class="text-muted-foreground">
+                            Unlock underutilized features and make HubSpot work smarter for your business.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-black">
+                        <h3 class="font-bold mb-3 tracking-normal">Fix & Clean Your Data</h3>
+                        <p class="text-muted-foreground">
+                            Easily automate and build impactful workflows with a well-structured system.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-black">
+                        <h3 class="font-bold mb-3 tracking-normal">Streamline & Automate Workflows</h3>
+                        <p class="text-muted-foreground">
+                            Connect sales, marketing, and customer operations for seamless execution.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-black">
+                        <h3 class="font-bold mb-3 tracking-normal">Gain Clear, Actionable Insights</h3>
+                        <p class="text-muted-foreground">
+                            Get the reporting you need to make confident, data-driven decisions.
+                        </p>
+                    </div>
                 </div>
-                <div class="service">
-                    <h4>CRM Optimize</h4>
-                    <p><em>Stay ahead with continuous HubSpot optimization.</em> A long-term, proactive support model that ensures HubSpot keeps evolving with your business.</p>
+            </section>
+
+            <!-- Partner Statement -->
+            <section class="container py-20 border-t border-black">
+                <div class="max-w-4xl mx-auto text-center space-y-6">
+                    <h2 class="text-3xl md:text-4xl font-bold tracking-normal">
+                        We are NOT a HubSpot Partner. We're <em>Your</em> Partner.
+                    </h2>
+                    <p class="text-muted-foreground">
+                        Unlike agencies focused on selling more licenses or onboarding new users, we refine and optimize your
+                        existing HubSpot setup to deliver measurable business impact. No conflicting incentives, no credits for
+                        selling you extra seats.
+                    </p>
                 </div>
-            </div>
-        </div>
-    </section>
-    
-    <section class="cta">
-        <div class="container">
-            <h3>Stop Fighting with HubSpot—Start Profiting from It</h3>
-            <p>HubSpot should fuel your growth, not slow you down. With VeraOps, you get a smarter, more streamlined system that scales with your business.</p>
-            <a href="mailto:hi@veraops.com" class="cta-button">Get in Touch</a>
-        </div>
-    </section>
-    
-    <footer class="footer">
-        <div class="container">
-            <p><strong>VeraOps is a Barrel Holdings agency.</strong></p>
-            <p>We are part of the Barrel Holdings portfolio of agencies, backed by nearly two decades of agency operational experience. VeraOps is led by HubSpot CRM implementation experts with deep experience in navigating strategic and technical challenges related to HubSpot.</p>
-            <p><a href="mailto:hi@veraops.com">hi@veraops.com</a></p>
-            <p>A Barrel Holdings Company</p>
-        </div>
-    </footer>
+            </section>
+
+            <!-- Services -->
+            <section class="container py-20">
+                <h2 class="text-3xl md:text-4xl font-bold tracking-normal mb-12">Three Ways to Work with Us</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="pt-4 border-t border-black">
+                        <div class="mb-6">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-12 w-12"><path d="M12 12a4 4 0 1 0 4 4"></path><path d="M12 8a4 4 0 1 1 4 4"></path><path d="M12 2v2"></path><path d="M12 22v-2"></path><path d="m17 20.66-1-1.73"></path><path d="M11 10.27 7 3.34"></path><path d="m20.66 17-1.73-1"></path><path d="m3.34 7 1.73 1"></path><path d="M14 12h8"></path><path d="M2 12h2"></path><path d="m20.66 7-1.73 1"></path><path d="m3.34 17 1.73-1"></path><path d="m17 3.34-1 1.73"></path><path d="m11 13.73-4 6.93"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold tracking-normal mb-2">CRM Rescue</h3>
+                        <p class="italic mb-4">The fast track to making HubSpot work for you.</p>
+                        <p class="text-muted-foreground">
+                            A deep-dive diagnostic + technical overhaul to fix, streamline, and optimize your HubSpot instance.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-black">
+                        <div class="mb-6">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-12 w-12"><rect width="8" height="8" x="3" y="3" rx="2"></rect><path d="M7 11v4a2 2 0 0 0 2 2h4"></path><rect width="8" height="8" x="13" y="13" rx="2"></rect></svg>
+                        </div>
+                        <h3 class="text-xl font-bold tracking-normal mb-2">Revenue Systems Program</h3>
+                        <p class="italic mb-4">Turn HubSpot into your most powerful revenue engine.</p>
+                        <p class="text-muted-foreground">
+                            Restructure your HubSpot setup into a fully integrated, revenue-generating system with modular automation.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-black">
+                        <div class="mb-6">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-12 w-12"><path d="M3 3v18h18"></path><path d="m19 9-5 5-4-4-3 3"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold tracking-normal mb-2">CRM Optimize</h3>
+                        <p class="italic mb-4">Stay ahead with continuous HubSpot optimization.</p>
+                        <p class="text-muted-foreground">
+                            A long-term, proactive support model that ensures HubSpot keeps evolving with your business.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA Section -->
+            <section class="container py-20 border-t border-black">
+                <div class="max-w-3xl mx-auto space-y-6">
+                    <h2 class="text-3xl md:text-4xl font-bold tracking-normal">
+                        Stop Fighting with HubSpot—Start Profiting from It
+                    </h2>
+                    <p class="text-muted-foreground">
+                        HubSpot should fuel your growth, not slow you down. With VeraOps, you get a smarter, more streamlined
+                        system that scales with your business.
+                    </p>
+                    <p>Let's transform your HubSpot today.</p>
+                    <button 
+                        class="btn-cta rounded-none text-sm tracking-wide bg-black text-custom-bg hover:bg-custom-bg hover:text-black border border-black transition-colors duration-300"
+                        onclick="window.location.href='mailto:hi@veraops.com'"
+                    >
+                        Get in Touch 
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="container py-20 border-t border-black">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                    <div class="space-y-4">
+                        <h3 class="text-xl font-bold tracking-normal">VeraOps is a Barrel Holdings agency.</h3>
+                        <p class="text-muted-foreground">
+                            We are a part of the Barrel Holdings portfolio of agencies, backed by nearly two decades of agency
+                            operational experience.
+                        </p>
+                        <p class="text-muted-foreground">
+                            VeraOps is led by HubSpot CRM implementation experts with deep experience in navigating strategic and
+                            technical challenges related to HubSpot.
+                        </p>
+                    </div>
+                    <div class="flex flex-col md:items-end justify-between">
+                        <a href="mailto:hi@veraops.com" class="hover:underline tracking-normal">
+                            hi@veraops.com
+                        </a>
+                        <a href="https://barrel-holdings.com" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:underline">
+                            A Barrel Holdings Company
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
 </body>
 </html>
+
